@@ -602,6 +602,15 @@ a {
 .skip-link:focus {
     top: 1rem;
 }
+.case-actions {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.case-actions .button {
+    margin-top: 0;
+}
 
 @media (max-width: 760px) {
     .site-header {
